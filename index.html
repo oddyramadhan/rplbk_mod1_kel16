@@ -1,12 +1,20 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <title>Pengenalan Javascript</title>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pencarian Data</title>
+    <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <input type="text" onkeyup="checkOnKeyUp(this)" />
-    <script src="./script.js"></script>
+    <h1>Pencarian Data Mahasiswa Aegis</h1>
+    <div class="container">
+      <input id="inputValue" type="text" />
+      <div class="hasil">
+        <p>Data tidak ditemukan !</p>
+      </div>
+    </div>
+    <script src="script.js" type="module"></script>
   </body>
 </html>
